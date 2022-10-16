@@ -45,7 +45,7 @@ dev_dependencies:
   shared_preferences: ^2.0.15
   carousel_slider: ^4.1.1
   rxdart: ^0.27.5
-  freezed: ^2.1.1
+  freezed: ^2.2.0
   retrofit: ^3.3.1
   retrofit_generator: ^4.2.0
   analyzer: ^5.1.0

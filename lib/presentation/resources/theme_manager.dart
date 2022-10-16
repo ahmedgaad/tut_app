@@ -50,12 +50,12 @@ ThemeData getThemeData() {
       )
     ),
 
-    //text theme
+    //text theme 2021, cause i can't mix between 2018 and 2021 themes..
     textTheme: TextTheme(
-      headline1: getSemiBoldStyle(color: ColorManager.darkGrey, fontSize: FontSize.s16),
-      subtitle1: getMediumStyle(color: ColorManager.lightGrey, fontSize: FontSize.s14),
-      caption: getRegularStyle(color: ColorManager.grey1),
-      bodyText1: getLightStyle(color: ColorManager.grey),
+      displayLarge: getSemiBoldStyle(color: ColorManager.darkGrey, fontSize: FontSize.s16),
+      titleMedium: getMediumStyle(color: ColorManager.lightGrey, fontSize: FontSize.s14),
+      bodyLarge: getRegularStyle(color: ColorManager.grey1),
+      bodyMedium: getLightStyle(color: ColorManager.grey),
     ),
 
     //input decoration theme (TextFormField TFF)

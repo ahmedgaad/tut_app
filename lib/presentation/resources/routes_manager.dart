@@ -43,7 +43,7 @@ class RouteGenerator {
           appBar: AppBar(
             title: const Text(AppStrings.noRouteFound), // todo move this string to strings manager
           ),
-          body: const Center(child: Text(AppStrings.noRouteFound)), // todo move this string to strings manager
+          body: const Center(child: Text(AppStrings.noRouteFound)),
         )
     );
   }
